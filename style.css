@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+      background-color: #0e7e75;
+      margin: 0;
+      padding: 0;
+  }
+
+.container {
+    max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    margin-top: 0;
+    color: green;
+
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile img {
+    width: 150px;
+    height: auto;
+    margin-left: 20px;
+  }
+  
+  .contact {
+    margin-left: 20px;
+  }
+  .dropdown-content {
+    display: none;
+    padding-left: 20px;
+  }
+  
+  .dropdown-heading:hover {
+    cursor: pointer;
+  }
+  
+  .dropdown-heading::after {
+    content: '\25BC';
+    float: right;
+  }
+  
+  .active {
+    display: block;
+  }
+  #skills ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #skills li {
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+  }
+
+  #education ul,
+#professional-experiences ul,
+#skills ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#education li,
+#professional-experiences li,
+#skills li {
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+
+#research-experiences ul,
+#publications ul,
+#skills ul,
+#education ul,
+#professional-experiences ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#grants-contracts-scholarships li,
+#conference-presentations ul,
+#research-experiences li,
+#publications li,
+#skills li,
+#education li,
+#professional-experiences li {
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+
+#grants-contracts-scholarships ul,
+#conference-presentations ul,
+#skills ul,
+#education ul,
+#professional-experiences ul,
+#research-experiences ul,
+#publications ul {
+  list-style-type: none;
+  padding: 0;
+}
+

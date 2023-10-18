@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Michael Adiyia - Personal Information</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+    <h1>Michael Adiyia</h1>
+    <div class="profile">
+      <img src="madiyia.jpeg" alt="Profile Picture">
+      <div class="contact">
+        <p>Phone: 416733244 <span id="phone"></span></p>
+        <p>Address: 28 Green street, Toronto <span id="address"></span></p>
+        <p>Email: michaeladiyia@gmail.com <span id="email"></span></p>
+      </div>
+    </div>
+    </header>
+
+    <section>
+
+    <h2>Summary</h2>
+    <p>I am very passionate about technology design, innovation and tools, and how they can be used to improve processes and to address community issues. A researcher with over 5 years of experience in program evaluation, public policy, innovation, and program development.</p>
+
+    <h2 class="dropdown-heading" onclick="toggleDropdown('skills')">Skills</h2>
+    <div class="dropdown-content" id="skills">
+      <ul>
+        <li>Programming Languages: Java, Python, MATLAB</li>
+        <li>Web Development: HTML, CSS, JavaScript, Angular</li>
+        <li>UX/UI design skills – Figma, Sketch, Adobe Creative Cloud</li>
+        <li>Data Analysis: Data cleaning, data exploration, data visualization, statistical analysis, classification</li>
+        <li>Database Management: SQL, Oracle</li>
+        <li>Software Development Lifecycle (SDLC)</li>
+        <li>Problem-solving and troubleshooting</li>
+        <li>Strong analytical and critical thinking skills</li>
+        <li>Excellent verbal and written communication skills -- Facilitation and community engagement skills.</li>
+        <li>Excellent research skills: quantitative & qualitative analysis.</li>
+        <li>Writing: technical reports and research papers.</li>
+        <li>Machine Learning: TensorFlow, scikit-learn</li>
+      </ul>
+    </div>
+
+    <h2 class="dropdown-heading" onclick="toggleDropdown('education')">Education</h2>
+    <div class="dropdown-content" id="education">
+      <ul>
+        <li>B.A., Hons. Information Technology, York University, Toronto, Canada (2020-2023).</li>
+        <li>Master of Rural Development, Brandon University, Brandon, Canada (2015-2017).</li>
+        <li>BSc. Development Planning, Kwame Nkrumah University of Science and Technology, Kumasi, Ghana (2011-2015).</li>
+      </ul>
+    </div>
+
+    <h2 class="dropdown-heading" onclick="toggleDropdown('professional-experiences')">Professional Experiences</h2>
+    <div class="dropdown-content" id="professional-experiences">
+      <ul>
+        <li>
+          <strong>Research Coordinator</strong> -- Centre for Employment Innovation, St. Francis Xavier University, Antigonish (June 2019 to August 2020)
+          <ul>
+            <li>Coordinated the collection, delivery, entry, verification, analysis, and reporting of data.</li>
+            <li>Performed qualitative and quantitative analyses of research data.</li>
+            <li>Interviewed study participants to gather qualitative and quantitative data.</li>
+            <li>Developed action plan for research projects, which included collaboration with government, private and non-profit organization stakeholders.</li>
+            <li>Presented at meetings, seminars, and conferences as part of the team.</li>
+            <li>Provided supervision for student research interns and other project-specific research staff.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Research Assistant/Community Outreach Coordinator</strong> -- Rural Development Institute, Brandon University (June 2016 to August 2017)
+          <ul>
+            <li>Worked with community members and other partner institutions to design and execute research projects.</li>
+            <li>Conducted literature reviews, surveys, and other research for use in scholarly publications.</li>
+            <li>Wrote reports and compiled research results for analysis.</li>
+            <li>Communicated research through webinars, conference presentations, and meetings.</li>
+            <li>Updated website and built journal website for research publication.</li>
+            <li>Organized and attended meetings with stakeholders, communities, faculty, students, and research affiliates</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <h2 class="dropdown-heading" onclick="toggleDropdown('research-experiences')">Research Experiences</h2>
+    <div class="dropdown-content" id="research-experiences">
+      <ul>
+        <li>
+          <strong>Prepared Developmental Evaluation for Nova Scotia Works Diversity and Inclusion Program</strong> (Project research lead).
+        </li>
+        <li>
+          <strong>Conducted evaluation and project research design</strong> for Building the Future of the Trucking Industry (Trucking Human Resource Sector Council Atlantic).
+        </li>
+        <li>
+          <strong>Collected and analyzed data</strong> for Manitoba Rural Broadband Project: A Capitals Assessment in Rural Communities (Project researcher, Rural Development Institute).
+        </li>
+        <li>
+          <strong>Reviewed literature</strong> for Assessing the effects of the use of student response systems on academic performance (Research assistant, Brandon University).
+        </li>
+      </ul>
+    </div>
+
+    <h2 class="dropdown-heading" onclick="toggleDropdown('conference-presentations')">Conference Presentations</h2>
+    <div class="dropdown-content" id="conference-presentations">
+      <ul>
+        <li>
+          Adiyia, M. & Kelly, W. (2017). Manitoba Rural Broadband: A Capitals Assessment in Rural Communities. Presented at National First Nations eHealth Conference and 2nd Annual MFN ICT Summit, Winnipeg, Manitoba. [Role: researcher and presenter]
+        </li>
+        <li>
+          Adiyia, M. (2016). Assessing the Effects of Corporate Social Responsibility activities on Beneficiaries. Poster session presented at Building Vibrant Rural Futures conference, Guelph, Ontario. [Role: Researcher, Author and presenter]
+        </li>
+      </ul>
+    </div>
+
+    <h2 class="dropdown-heading" onclick="toggleDropdown('publications')">Publications</h2>
+    <div class="dropdown-content" id="publications">
+      <ul>
+        <li>
+          Adiyia, M. & Ashton, B. (2017). List of Data Bases. Brandon, MB. Rural Development Institute, Brandon University. [Role: lead author]
+        </li>
+        <li>
+          Adiyia, M. & Ashton, B. (2017). Comparative Research. Brandon, MB. Rural Development Institute, Brandon University. [Role: lead author]
+        </li>
+      </ul>
+    </div>
+
+    <h2 class="dropdown-heading" onclick="toggleDropdown('grants-contracts-scholarships')">Grants, Contracts & Scholarships</h2>
+    <div class="dropdown-content" id="grants-contracts-scholarships">
+      <ul>
+        <li>2016 to 2017 - Brandon University African Student Scholarship Award recipient</li>
+        <li>2016 to 2017 - Rural Development Institute Annual Scholarship Award recipient</li>
+      </ul>
+    </div>
+    </div>
+    </section>
+
+
+  <footer>
+    <p>Follow me on social media:</p>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/your-profile-link" target="_blank"><i class="fab fa-facebook-square"></i></a>
+      <a href="https://www.instagram.com/your-profile-link" target="_blank"><i class="fab fa-instagram-square"></i></a>
+    </div>
+    <p>Copyright &copy; 2023 Michael Adiyia. All rights reserved.</p>
+  </footer>
+</body>
+</html>
