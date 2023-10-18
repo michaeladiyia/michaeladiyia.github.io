@@ -87,29 +87,29 @@ body {
   padding: 0;
 }
 
-#grants-contracts-scholarships li,
-#it-projects li,
-#conference-presentations ul,
-#research-experiences li,
-#publications li,
-#skills li,
-#education li,
-#professional-experiences li {
-  margin-bottom: 10px;
-  padding: 5px 10px;
-  background-color: #f1f1f1;
-  border-radius: 5px;
-}
-
-#grants-contracts-scholarships ul,
 #it-projects ul,
-#conference-presentations ul,
 #skills ul,
 #education ul,
 #professional-experiences ul,
 #research-experiences ul,
-#publications ul {
+#publications ul,
+#grants-contracts-scholarships ul,
+#conference-presentations ul {
   list-style-type: none;
   padding: 0;
+}
+
+#it-projects li,
+#skills li,
+#education li,
+#professional-experiences li,
+#research-experiences li,
+#publications li,
+#grants-contracts-scholarships li,
+#conference-presentations li {
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
 }
 
